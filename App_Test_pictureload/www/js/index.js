@@ -30,7 +30,7 @@ function readdata() {
 	document.getElementById("wosindwir").innerHTML = "";
 	document.getElementById("contact").innerHTML = "";
 
-	d3.csv("data/picture.csv", function(data) {
+	d3.csv("https://raw.githubusercontent.com/marcvoegele/SuederApp/master/App_Test_pictureload/www/data/picture.csv", function(data) {
         /*data.forEach(function(d){
 			d.Jahr = +d.Jahr;
 			d.Total = +d.Total;
@@ -103,7 +103,7 @@ function calender() {
 	document.getElementById("wosindwir").innerHTML = "";
 	document.getElementById("contact").innerHTML = "";
 
-	d3.csv("https://raw.githubusercontent.com/marcvoegele/SuederApp/master/App_Test_pictureload/www/data/calender", function(data) {
+	d3.csv("https://raw.githubusercontent.com/marcvoegele/SuederApp/master/App_Test_pictureload/www/data/calender.csv", function(data) {
         /*data.forEach(function(d){
 			d.Jahr = +d.Jahr;
 			d.Total = +d.Total;
@@ -144,7 +144,7 @@ function news() {
 	document.getElementById("wosindwir").innerHTML = "";
 	document.getElementById("contact").innerHTML = "";
 
-	d3.csv("data/news.csv", function(data) {
+	d3.csv("https://raw.githubusercontent.com/marcvoegele/SuederApp/master/App_Test_pictureload/www/data/news.csv", function(data) {
         /*data.forEach(function(d){
 			d.Jahr = +d.Jahr;
 			d.Total = +d.Total;
@@ -177,7 +177,7 @@ function showevent() {
 	document.getElementById("wosindwir").innerHTML = "";
 	document.getElementById("contact").innerHTML = "";
 
-	d3.csv("data/events.csv", function(data) {
+	d3.csv("https://raw.githubusercontent.com/marcvoegele/SuederApp/master/App_Test_pictureload/www/data/events.csv", function(data) {
         /*data.forEach(function(d){
 			d.Jahr = +d.Jahr;
 			d.Total = +d.Total;
@@ -210,7 +210,7 @@ function history() {
 	document.getElementById("wosindwir").innerHTML = "";
 	document.getElementById("contact").innerHTML = "";
 
-	d3.csv("data/history.csv", function(data) {
+	d3.csv("https://raw.githubusercontent.com/marcvoegele/SuederApp/master/App_Test_pictureload/www/data/history.csv", function(data) {
         /*data.forEach(function(d){
 			d.Jahr = +d.Jahr;
 			d.Total = +d.Total;
