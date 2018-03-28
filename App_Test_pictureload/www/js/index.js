@@ -103,7 +103,7 @@ function calender() {
 	document.getElementById("wosindwir").innerHTML = "";
 	document.getElementById("contact").innerHTML = "";
 
-	d3.csv("data/calender", function(data) {
+	d3.csv("https://raw.githubusercontent.com/marcvoegele/SuederApp/master/App_Test_pictureload/www/data/calender", function(data) {
         /*data.forEach(function(d){
 			d.Jahr = +d.Jahr;
 			d.Total = +d.Total;
